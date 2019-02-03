@@ -1,0 +1,20 @@
+{
+  "name": "vue-cli-plugin-nwjs",
+  "version": "0.1.0",
+  "description": "Vue-cli 3 plugin for adding NW.js support",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaTepluhina/vue-cli-plugin-nwjs.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "desktop",
+    "nw",
+    "nwjs"
+  ],
+  "author": "Natalia Tepluhina <tarya.se@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/NataliaTepluhina/vue-cli-plugin-nwjs"
+}
