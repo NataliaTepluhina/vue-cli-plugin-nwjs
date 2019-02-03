@@ -1,4 +1,5 @@
-module.exports = (api, options) => {
+module.exports = (api, options, rootOptions) => {
+  console.log(rootOptions)
   api.extendPackage({
     devDependencies: {
       "nw": "^0.35.4-sdk",
@@ -6,6 +7,7 @@ module.exports = (api, options) => {
     },
     scripts: {
       "nw-serve": "vue-cli-service serve & sleep 5 && nw ."
-    }
+    },
+    main: "http://localhost:8080"
   });
 };
