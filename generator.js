@@ -1,5 +1,4 @@
 module.exports = (api, options, rootOptions) => {
-  console.log(rootOptions)
   api.extendPackage({
     devDependencies: {
       "nw": "^0.35.4-sdk",

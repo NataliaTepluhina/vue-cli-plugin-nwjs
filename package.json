@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-nwjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue-cli 3 plugin for adding NW.js support",
   "main": "index.js",
   "repository": {
